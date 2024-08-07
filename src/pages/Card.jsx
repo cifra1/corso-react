@@ -30,7 +30,8 @@ function Card() {
                 )}
             </div>
             <img
-                scr={cities[0].imgURL}
+                /* scr={cities[0].imgURL}*/
+                scr="https://images.unsplash.com/photo-1503899036084-c55cdd92da26?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dG9reW98ZW58MHx8MHx8fDA%3D"
                 className="rounded-t-md"
                 alt={cities[0].title}
                 width="400">
